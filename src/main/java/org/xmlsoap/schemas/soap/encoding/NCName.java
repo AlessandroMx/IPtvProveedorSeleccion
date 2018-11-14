@@ -16,7 +16,7 @@ package org.xmlsoap.schemas.soap.encoding;
 public interface NCName extends org.apache.xmlbeans.XmlNCName
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NCName.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sCF5E167B6932FD11C51D4C298350F109").resolveHandle("ncnamef7a6type");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(NCName.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s48F857C1966A102919553CD3B5512EBB").resolveHandle("ncnamef7a6type");
     
     /**
      * Gets the "id" attribute

@@ -21,27 +21,30 @@ public class BusinessLogic {
                 .buscarSolicitud(idSolicitud);
 
         if (solicitud == null) {
-            return "No se encontró la solicitud de servicio. Procedimiento no válido.";
+            return "No se encontró la solicitud de servicio. "
+                    + "Procedimiento no válido.";
         }
-        
+
         SolicitudDto tmpSol = solicitud.get(0);
-        System.out.println("Solicitud: " + tmpSol.getIdSolicitud() + " encontrada.");
+        // System.out.println("Solicitud: " + tmpSol.getIdSolicitud() + "
+        // encontrada.");
 
         List<ClienteDto> cliente = clienteDao
                 .buscarCliente(tmpSol.getIdSolicitud());
-        
+
         ClienteDto tmpCli = cliente.get(0);
-        System.out.println("Cliente: " + tmpCli.getIdCliente() + " encontrado.");
+        // System.out.println("Cliente: " + tmpCli.getIdCliente() + "
+        // encontrado.");
 
         List<PaqueteDto> paquete = paqueteDao
                 .buscarPaquete(solicitud.get(0).getIdPaquete());
-        
-        PaqueteDto tmpPaq = paquete.get(0);
-        System.out.println("Paquete: " + tmpPaq.getIdPaquete() + " encontrado.");
 
-        return "Proveedor registrando que el usuario "
-                + tmpCli.getNombre() + " ha contratado el servicio "
-                + tmpPaq.getNombre();
+        PaqueteDto tmpPaq = paquete.get(0);
+        // System.out.println("Paquete: " + tmpPaq.getIdPaquete() + "
+        // encontrado.");
+
+        return "Proveedor registrando que el usuario " + tmpCli.getNombre()
+                + " ha contratado el servicio " + tmpPaq.getNombre();
 
     }
 

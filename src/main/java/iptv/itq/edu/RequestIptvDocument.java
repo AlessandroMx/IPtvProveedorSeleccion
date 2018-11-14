@@ -17,7 +17,7 @@ package iptv.itq.edu;
 public interface RequestIptvDocument extends org.apache.xmlbeans.XmlObject
 {
     public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(RequestIptvDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sCF5E167B6932FD11C51D4C298350F109").resolveHandle("requestiptv5d0adoctype");
+        org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(RequestIptvDocument.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s48F857C1966A102919553CD3B5512EBB").resolveHandle("requestiptv5d0adoctype");
     
     /**
      * Gets the "requestIptv" element
@@ -42,7 +42,7 @@ public interface RequestIptvDocument extends org.apache.xmlbeans.XmlObject
     public interface RequestIptv extends org.apache.xmlbeans.XmlObject
     {
         public static final org.apache.xmlbeans.SchemaType type = (org.apache.xmlbeans.SchemaType)
-            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(RequestIptv.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.sCF5E167B6932FD11C51D4C298350F109").resolveHandle("requestiptved06elemtype");
+            org.apache.xmlbeans.XmlBeans.typeSystemForClassLoader(RequestIptv.class.getClassLoader(), "schemaorg_apache_xmlbeans.system.s48F857C1966A102919553CD3B5512EBB").resolveHandle("requestiptved06elemtype");
         
         /**
          * Gets the "id_solicitud" element
