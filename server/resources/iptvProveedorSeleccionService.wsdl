@@ -5,19 +5,19 @@
 			<xs:include schemaLocation="iptvProvSel.xsd"/>
 		</xs:schema>
   </wsdl:types>
-  <wsdl:message name="IptvRequest">
-    <wsdl:part name="parameter" element="tns:requestIptv">
+  <wsdl:message name="IptvProvSelResponse">
+    <wsdl:part name="parameter" element="tns:responseIptvProvSel">
     </wsdl:part>
   </wsdl:message>
-  <wsdl:message name="IptvResponse">
-    <wsdl:part name="parameter" element="tns:responseIptv">
+  <wsdl:message name="IptvProvSelRequest">
+    <wsdl:part name="parameter" element="tns:requestIptvProvSel">
     </wsdl:part>
   </wsdl:message>
   <wsdl:portType name="iptvPortType">
     <wsdl:operation name="iptvOperation">
-      <wsdl:input message="tns:IptvRequest">
+      <wsdl:input message="tns:IptvProvSelRequest">
     </wsdl:input>
-      <wsdl:output message="tns:IptvResponse">
+      <wsdl:output message="tns:IptvProvSelResponse">
     </wsdl:output>
     </wsdl:operation>
   </wsdl:portType>

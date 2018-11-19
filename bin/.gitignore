@@ -1,7 +1,7 @@
 /edu/
-/iptvProvSel.xsd
-/iptvProvSel.wsdl
-/schemaorg_apache_xmlbeans/
 /iptv/
+/iptvProvSel.wsdl
+/iptvProvSel.xsd
 /org/
-/context.xml
+/schemaorg_apache_xmlbeans/
+/services.xml
